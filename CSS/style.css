@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100');
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.title {
+  margin: 0 auto;
+  color: white; 
+  font-family: 'Lato', sans-serif;
+  font-size: 3rem;
+}
+
+.container {
+  width: 100%;
+  height: 100%;  
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  animation: changeBackgroundColor 7s infinite;
+}
+
+.calculo {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+  animation: changeBackgroundColor 7s infinite;
+}
+
+#tit {
+  font-size: 25px;
+}
+
+button{
+  border-color: white;
+  border-width: 3px;
+  padding: 10px;
+  background-color: rgba(241, 241, 241, 0);
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pessoal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+@keyframes changeBackgroundColor {
+  0% {
+    background-color: #001F3F;
+  }
+  50% {
+    background-color: #aa2f28;
+  }
+  100% {
+    background-color: #001F3F;
+  }
+}
